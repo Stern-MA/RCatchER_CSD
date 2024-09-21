@@ -10,3 +10,5 @@ Executable code and data for analysis of the anti-epileptic effect of CSD (Figur
 Upon publication a link to an online archive with all the data and code for processing to generate the figures and other analysis included in the manuscript will be provided here.
 
 Statistical analyses code can be found in the full code script RCatchERpaper_Figs.m for review.
+
+The processing code is adapted from Stern et al. 2024 Neurophotonics 11(2):024202 (github repository: Stern-MA/2PCISz_RecDetect
