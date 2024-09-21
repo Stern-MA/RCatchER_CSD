@@ -59,7 +59,7 @@
 
 %% START Loop
 
-szList={'S103ptz1'};
+szList={'S89ptz3'};
 
 for mm=1:length(szList)
 
