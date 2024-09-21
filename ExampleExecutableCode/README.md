@@ -1,4 +1,4 @@
-# Example Recording Processing and Analysis
+# Example seizure with csd recording (processing and analysis)
 Repository for code and data needed to process and analyze a representative recording of a seizure with post-ictal CSD.
 
 Code was run on a 2019 MacBook Pro (iOS 13) and MATLAB 2020b
