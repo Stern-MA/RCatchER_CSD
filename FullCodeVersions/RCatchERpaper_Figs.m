@@ -506,7 +506,7 @@ shading flat
 colormap(ax(1),jet)
 % c1=colorbar('Ticks',[-3:1:6],'TickLabels',[-3:1:6]);
 % c1.Label.String='dF/F';
-caxis([-1 3])
+caxis([-2 6])
 xticks([0:50:1500])
 %xticklabels([0:50:1500])
 xticklabels([])
@@ -526,7 +526,7 @@ shading flat
 colormap(ax(2),jet)
 % c1=colorbar('Ticks',[-3:1:6],'TickLabels',[-3:1:6]);
 % c1.Label.String='dF/F';
-caxis([-1 3])
+caxis([-2 6])
 xticks([0:50:1500])
 xticklabels([0:50:1500])
 yticks([156:30:313])
@@ -550,7 +550,7 @@ shading flat
 colormap(ax(1),jet)
 % c1=colorbar('Ticks',[-3:1:6],'TickLabels',[-3:1:6]);
 % c1.Label.String='dF/F';
-caxis([-1 3])
+caxis([-2 6])
 xticks([0:50:1050])
 %xticklabels([0:50:1050])
 xticklabels([])
@@ -570,7 +570,7 @@ shading flat
 colormap(ax(2),jet)
 % c1=colorbar('Ticks',[-3:1:6],'TickLabels',[-3:1:6]);
 % c1.Label.String='dF/F';
-caxis([-1 3])
+caxis([-2 6])
 xticks([0:50:1050])
 xticklabels([0:50:1050])
 yticks([56:30:113])
@@ -594,7 +594,7 @@ shading flat
 colormap(ax(1),jet)
 % c1=colorbar('Ticks',[-3:1:6],'TickLabels',[-3:1:6]);
 % c1.Label.String='dF/F';
-caxis([-1 3])
+caxis([-2 6])
 xticks([0:50:1050])
 %xticklabels([0:50:1050])
 xticklabels([])
@@ -614,7 +614,7 @@ shading flat
 colormap(ax(2),jet)
 % c1=colorbar('Ticks',[-3:1:6],'TickLabels',[-3:1:6]);
 % c1.Label.String='dF/F';
-caxis([-1 3])
+caxis([-2 6])
 xticks([0:50:1050])
 xticklabels([0:50:1050])
 yticks([141:30:283])

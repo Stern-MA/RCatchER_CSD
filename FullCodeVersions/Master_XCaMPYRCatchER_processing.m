@@ -160,8 +160,8 @@ if split_On==1
 end
 
 
-%% Select Only Selected ROIs
-% GREEN CHANNEL
+%% Sort ROIs
+% Select only True ROIs
 F1G=nan(sum(iscell(:,1)),size(F_G,2)-1); %generate matrix to fill with only cell ROIs F
 F1R=nan(sum(iscell(:,1)),size(F_R,2)-1);
 Fneu1G=nan(sum(iscell(:,1)),size(Fneu_G,2)-1); %generate matrix to fill with only cell ROIs neu
@@ -728,7 +728,7 @@ clear ii jj
 
 
 
-%% Individual seizure recruitment detection (Version 3)
+%% Individual seizure recruitment detection
 if Sz_On==1
 
 %need to use the Yellow Sz time seed the Red
@@ -743,7 +743,7 @@ RecTimeR_sz2=RecTimeR_sz3_struct.time;
 %trace needs to have atleast a 20% increase in signal during seizure and the
 %seizure detected time needs to be determined to be within 3 seconds of
 %the seed time (if average speed is 100um/s and field is <300um all values
-%should be within 3 seconds of mean giving 6 second window)
+%should be within 3 seconds of mean giving a 6 second window)
 
 tprd=10;%time period (s)
 gthresh=0.2; %green threshold typical G threshold .3
